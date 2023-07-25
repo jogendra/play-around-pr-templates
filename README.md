@@ -1,3 +1,3 @@
 # play-around-pr-templates
 
-Hellow from `randmlyyy` branch.
+Hellow from `dev` branch.
