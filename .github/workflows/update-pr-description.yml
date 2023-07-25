@@ -12,5 +12,6 @@ jobs:
     - uses: tzkhan/pr-update-action@v2
       with:
         repo-token: "${{ secrets.GITHUB_TOKEN }}"
+        base-branch-regex: '[a-z\d-_.\\/]+'
         body-template: |
           This is some **random** check you need to _pass_ before you can merge
