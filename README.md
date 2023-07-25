@@ -1,3 +1,3 @@
 # play-around-pr-templates
 
-Hellow from `dev` branch.
+Hellow from `dev` branch. Extension
