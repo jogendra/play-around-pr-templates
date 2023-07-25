@@ -9,7 +9,7 @@ jobs:
   update-pr-description:
     runs-on: ubuntu-latest
     steps:
-    - uses: riskledger/update-pr-description@dev
+    - uses: riskledger/update-pr-description@v2
       with:
         body: |
           "This is just random check you need to pass before"
