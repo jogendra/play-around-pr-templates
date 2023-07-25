@@ -6,11 +6,11 @@ on:
       - main
       
 jobs:
-  update-pr-description:
+  update_pr:
     runs-on: ubuntu-latest
     steps:
-    - uses: riskledger/update-pr-description@v2
+    - uses: tzkhan/pr-update-action@v2
       with:
-        body: |
-          "This is just random check you need to pass before"
-        token: ${{ secrets.GITHUB_TOKEN }}
+        repo-token: "${{ secrets.GITHUB_TOKEN }}"
+        body-template: |
+          This is some **random** check you need to _pass_ before you can merge
