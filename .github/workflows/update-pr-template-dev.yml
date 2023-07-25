@@ -14,4 +14,9 @@ jobs:
         repo-token: "${{ secrets.GITHUB_TOKEN }}"
         base-branch-regex: '[a-z\d-_.\\/]+'
         body-template: |
-          This is some **random** check you need to _pass_ before you can merge into `dev`.
+          ## Checklists
+          ### Checklist (author)
+          - [ ] The CHANGELOG description is clear to reviewers & PAs
+          - [ ] Documentation is checked (existing updated, newly written, or not necessary)
+          - [ ] Related PRs are linked
+          - [ ] I have filled in this template
