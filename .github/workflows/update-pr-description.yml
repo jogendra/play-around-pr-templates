@@ -1,0 +1,12 @@
+name: Check CHANGELOG diff
+
+on:
+  pull_request:
+    branches:
+      - dev
+      
+steps:
+  - uses: riskledger/update-pr-description@dev
+    with:
+      body: ${{ description }} # The text you wish to overwrite your Pull Request description with, can be a variable or a string
+      token: ${{ secrets.GITHUB_TOKEN }}
